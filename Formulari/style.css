@@ -1,0 +1,54 @@
+html {
+    background: #FEBA4B;
+}
+.caja {
+    width: 1500;
+    height: 600px;
+    position: relative;
+    display: block;
+    background: rgb(144, 128, 77);
+    bottom: 400;
+}
+
+.cuadro {
+    top: 10%;
+    border: 2px;
+    left: 25%;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    color: red;
+    border-radius: 50px;
+    border: ridge;
+    position: absolute;
+    display: block;
+    margin-top: 4px;
+}
+
+.botonstyle {
+    width: 150px;
+    height: 40px;
+    top: 10%;
+    margin: 1%;
+    margin-left: 10%;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 30px;
+    background: #FF5733;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: gold;
+}
+
+.error {
+    color: red;
+    font-size: 8px;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:valid {
+    border: 1px solid green;
+}
